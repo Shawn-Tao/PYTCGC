@@ -1,6 +1,3 @@
-//import QtQuick 6.4
-//import QtQuick.Controls 6.4
-
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
@@ -22,7 +19,6 @@ Window{
 
     signal test_pass_sig(string s)
 
-//    Connections()
     Connections {
         target: speaker
 
